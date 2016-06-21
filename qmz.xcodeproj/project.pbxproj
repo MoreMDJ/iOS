@@ -606,7 +606,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "00cf599a-02d6-4a06-b93c-2abd461b1b6d";
+				PROVISIONING_PROFILE = "ae5edae2-90d6-402e-8e00-b426a229bc9f";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -645,7 +645,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "00cf599a-02d6-4a06-b93c-2abd461b1b6d";
+				PROVISIONING_PROFILE = "ae5edae2-90d6-402e-8e00-b426a229bc9f";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -655,7 +655,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Guiwen Zheng (K93H9AGWF7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -671,7 +671,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bm.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a528e748-fa92-4b20-b864-326f913492a8";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "/Users/Sharon/Projects/iOS/qmz/qmz/**";
 			};
 			name = Debug;
@@ -680,7 +680,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Guiwen Zheng (K93H9AGWF7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -696,7 +696,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bm.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a528e748-fa92-4b20-b864-326f913492a8";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "/Users/Sharon/Projects/iOS/qmz/qmz/**";
 			};
 			name = Release;

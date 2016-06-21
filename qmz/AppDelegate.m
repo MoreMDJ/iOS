@@ -19,6 +19,8 @@
 
 @interface AppDelegate ()
 
+@property(strong,nonatomic)CLLocationManager * location;
+
 @end
 
 @implementation AppDelegate
@@ -36,14 +38,12 @@
     {
         NSLog(@"微信注册失败");
     }
-    
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] >=8.0)
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
     {
-        CLLocationManager* location = [CLLocationManager new];
-        [location requestAlwaysAuthorization];
+        _location = [CLLocationManager new];
+        [_location requestAlwaysAuthorization];
     }
 
-    
     return YES;
 }
 

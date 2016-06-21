@@ -12,21 +12,21 @@
 #import "Order.h"
 #import "DataSigner.h"
 #import <AlipaySDK/AlipaySDK.h>
+#import <CoreLocation/CoreLocation.h>
+
 
 @interface ViewController ()<UIWebViewDelegate,WXApiDelegate>
 
 @end
 
 #define QMZNETWORK @"http://123.56.194.23:8080"
-//#define QMZNETWORK @"http://192.168.0.2:8080"
+//#define QMZNETWORK @"http://192.168.0.211:8080"
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    
     
     _webView.delegate = self;
     [_webView.scrollView setBounces:NO];
